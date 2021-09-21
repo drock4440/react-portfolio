@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Waifu Said",
+    "image": "https://camo.githubusercontent.com/ce42631eb78b7bfb4b82c0566ed79f8eb82733cccec7668233fe4e4c14ea80dd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f687878356a414930644333474b6d706b70392f67697068792e676966",
+    "project": "Quotes from your favorite waifu",
+    "location": "https://drock4440.github.io/waifu-said/"
+  },
+  {
+    "id": 2,
+    "name": "Agarthan Adventrues",
+    "image": "https://github.com/macktrain/Agarthan-Adventures/raw/main/public/assets/screenshots/homepage.png",
+    "project": "Take an adventure",
+    "location": "https://agarthan-adventures.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "name": "Coding Quiz",
+    "image": "https://github.com/drock4440/code-quiz/raw/main/images/questionex.png",
+    "project": "Test your knowledge",
+    "location": "https://drock4440.github.io/code-quiz/"
+  },
+  {
+    "id": 4,
+    "name": "Workday Scheduler",
+    "image": "https://github.com/drock4440/Work-Day-Planner/raw/main/inputs.png",
+    "project": "Keep track of your day",
+    "location": "https://drock4440.github.io/Work-Day-Planner/"
+  },
+  {
+    "id": 5,
+    "name": "Weather Dashboard",
+    "image": "https://github.com/drock4440/student-portfolio/raw/main/portfolio.png",
+    "project": "Another one of my portfolios",
+    "location": "https://drock4440.github.io/student-portfolio/"
+  },
+  {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "https://github.com/drock4440/progressive-budget/raw/master/screenshot.png",
+    "project": "A Daily Agenda",
+    "location": "https://pure-tundra-12268.herokuapp.com/"
+  }
+]

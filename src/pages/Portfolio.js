@@ -1,9 +1,9 @@
 import React from "react";
-import PortfolioCard from "../PortfolioCard";
-import projects from "../../assets/projects.json";
+import Portfolio from "../components/Portfolio";
+import projects from "../assets/projects.json";
 
 
-function Blog() {
+function PortfolioList() {
   return (
     <div>
 
@@ -12,13 +12,13 @@ function Blog() {
       <div className="container portfolio-container">
         <h1 className="title">Projects List</h1>
         <div className="row">
-          <PortfolioCard
+          <Portfolio
             name={projects[0].name}
             image={projects[0].image}
             project={projects[0].project}
             location={projects[0].location}
           />
-          <PortfolioCard
+          <Portfolio
             name={projects[1].name}
             image={projects[1].image}
             project={projects[1].project}
@@ -26,14 +26,14 @@ function Blog() {
           />
         </div>
         <div className="row">
-          <PortfolioCard
+          <Portfolio
             name={projects[2].name}
             image={projects[2].image}
             project={projects[2].project}
             location={projects[2].location}
           />
 
-          <PortfolioCard
+          <Portfolio
             name={projects[3].name}
             image={projects[3].image}
             project={projects[3].project}
@@ -43,14 +43,14 @@ function Blog() {
 
         <div className="row">
 
-          <PortfolioCard
+          <Portfolio
             name={projects[4].name}
             image={projects[4].image}
             project={projects[4].project}
             location={projects[4].location}
           />
 
-          <PortfolioCard
+          <Portfolio
             name={projects[5].name}
             image={projects[5].image}
             project={projects[5].project}
@@ -66,4 +66,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default PortfolioList

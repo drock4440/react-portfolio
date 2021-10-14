@@ -1,14 +1,12 @@
 import React from "react";
-import ContactPNG from '../assets/contact.png'
-import '../index.css'
+import ContactPNG from "../assets/contact.png";
+import "../index.css";
 
 const Home = () => {
-return(
+  return (
     <div>
-    <h1 className="homeText">
-        Hello and welcome! Check out my links!
-    </h1>
+      <h1 className="homeText">Hello and welcome! Check out my links!</h1>
     </div>
-)
-}
-export default Home
+  );
+};
+export default Home;

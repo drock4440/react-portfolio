@@ -2,13 +2,9 @@ import React from "react";
 import Portfolio from "../components/PortfolioCard";
 import projects from "../assets/projects.json";
 
-
 function PortfolioList() {
   return (
     <div>
-
-
-
       <div className=" portfolio-container">
         <h1 className="title">Projects</h1>
         <div className="row">
@@ -36,7 +32,7 @@ function PortfolioList() {
             project={projects[3].project}
             location={projects[3].location}
           />
-           <Portfolio
+          <Portfolio
             name={projects[4].name}
             image={projects[4].image}
             project={projects[4].project}
@@ -49,11 +45,10 @@ function PortfolioList() {
             project={projects[5].project}
             location={projects[5].location}
           />
-
         </div>
       </div>
-      </div >
+    </div>
   );
 }
 
-export default PortfolioList
+export default PortfolioList;

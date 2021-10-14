@@ -1,5 +1,5 @@
-*{
-  font-family: 'Caveat', cursive;
+* {
+  font-family: "Caveat", cursive;
   font-size: 30px;
   text-shadow: 4px 4px 4px grey;
 }
@@ -15,7 +15,7 @@ body {
   height: 100%;
 }
 .header {
-    border-bottom: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .title {
@@ -23,154 +23,148 @@ body {
   margin-left: 450px;
 }
 
-   .card {
-   
-    border-radius: 2px;
-    height: 700px;
-    position: relative;
-    width: 1200px;
-    text-align: center;
-    margin-bottom: 20px
-  }
-  
-  .card > .img-container {
-    height: 50%;
-    overflow: hidden;
-    text-align: center;
-    background:black;
-    padding-top: 10px;
-    
-  }
-  .card > .img-container > img {
-    width: 90%
-  }
-  
-  .card-content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 15px;
-    height: 200px;
-    text-align :center;
-    
-  }
-  
-  .card > .content > ul {
-    list-style-type: none;
-   
-  }
-  
-  .card > .content > ul > li {
-    margin-top: 18px;
-    padding-left: 10px;
-  }
+.card {
+  border-radius: 2px;
+  height: 700px;
+  position: relative;
+  width: 1200px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
 
-  .port-card {
-    height: 600px;
-    padding:10px;
-    margin-top: 10px;
+.card > .img-container {
+  height: 50%;
+  overflow: hidden;
+  text-align: center;
+  background: black;
+  padding-top: 10px;
+}
+.card > .img-container > img {
+  width: 90%;
+}
 
-  }
+.card-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+  height: 200px;
+  text-align: center;
+}
 
-  .portfolio-container {
-    margin-top: 60px;
-    margin-bottom: 100px;
-    width: 600px;
-  }
-  
+.card > .content > ul {
+  list-style-type: none;
+}
 
-  .container {
-    height: 100%;
-  }
-  
-  body {
-    background-image: url(https://media.istockphoto.com/photos/milky-way-picture-id1085287936?b=1&k=20&m=1085287936&s=170667a&w=0&h=JcGOcj303DmVlqdUSt9gXhW1v5O6HMCEsY5snHPuEiQ=); 
-    background-color: grey; 
-    min-height: 1300px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-  }
+.card > .content > ul > li {
+  margin-top: 18px;
+  padding-left: 10px;
+}
 
-  .nav-tabs {
-    border: 2px lightgray solid;
- 
-  }
+.port-card {
+  height: 600px;
+  padding: 10px;
+  margin-top: 10px;
+}
 
-  .nav-link {
-    color: white;
-    font-weight: bold;
-  }
+.portfolio-container {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  width: 600px;
+}
 
-  .about-container {
-    background-color: white;
-    border: 1px white solid;
-    width: 50%;
-    margin-left: 25%;
-    height: 800px;
-    padding: 20px;
-    margin-top: 10%;
-  }
+.container {
+  height: 100%;
+}
 
-  .profile {
-    width: 500px;
-    height: 500px;
-    padding-left: 0px;
-  }
+body {
+  background-image: url(https://media.istockphoto.com/photos/milky-way-picture-id1085287936?b=1&k=20&m=1085287936&s=170667a&w=0&h=JcGOcj303DmVlqdUSt9gXhW1v5O6HMCEsY5snHPuEiQ=);
+  background-color: grey;
+  min-height: 1300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
-  .resumePNG {
-    width: 150px;
-    height: auto;
-    margin-left: 75px;
-    margin-top: 15px;
-    
-  }
+.nav-tabs {
+  border: 2px lightgray solid;
+}
 
-  .page-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 15%;
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-    border-top: 3px solid black;
- }
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
 
- .contact-card {
+.about-container {
+  text-align: center;
+  background-color: white;
+  border: 1px white solid;
+  width: 50%;
+  margin-left: 25%;
+  height: 800px;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+.profile {
+  width: 500px;
+  height: 500px;
+  padding-left: 0px;
+}
+
+.resumePNG {
+  width: 150px;
+  height: auto;
+  margin-left: 75px;
+  margin-top: 15px;
+}
+
+.page-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  border-top: 3px solid black;
+}
+
+.contact-card {
   width: 300px;
   margin-left: 250px;
   margin-top: 20px;
- }
+}
 
- .contactLinks {
-   margin-left: 35%;
-   
- }
+.contactLinks {
+  margin-left: 35%;
+  color: white;
+}
 
- .card-home {
-   height: 400px;
-   
- }
+.card-home {
+  height: 400px;
+}
 
- .row-home {
-   margin-top: 10%;
- }
+.row-home {
+  margin-top: 10%;
+}
 
- .ome-profile-photo {
-   height: 240px;
-   width: 290px;
- }
- .MuiToolbar-root {
+.ome-profile-photo {
+  height: 240px;
+  width: 290px;
+}
+.MuiToolbar-root {
   background-color: darkblue;
   width: 100%;
 }
 .MuiAppBar-root {
-  background-color: #7cffc4 
+  background-color: #7cffc4;
 }
 .links {
   margin-top: 20px;
   margin-left: 25px;
+  color: white;
 }
 
 .homeText {
@@ -191,14 +185,22 @@ body {
   width: 600px;
 }
 .pTitle {
-color: white;
-margin-left: 100px;
+  color: white;
+  margin-left: 100px;
 }
 .card-links {
   display: flex;
   justify-content: center;
+  color: white;
 }
 .rounded {
   border-radius: 50%;
   margin-right: 30px;
+}
+div.card {
+  background-color: darkblue;
+  color: white;
+}
+.aTitle {
+  text-align: center;
 }

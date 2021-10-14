@@ -13,7 +13,7 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
-![image](./assets/frontpage.png)
+![image](frontpage.png)
 ## Installation
 💾 There is no need to install my portfolio.. if you want to use my code just clone the repository.
 ## Usage

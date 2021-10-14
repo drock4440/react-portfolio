@@ -32,7 +32,6 @@ const About = () => {
           </p>
         </div>
       </div>
-      {/* end copy paste  */}
     </div>
   );
 };

@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
   navlinks: {
     marginLeft: theme.spacing(10),
     display: "flex",
+    color: 'white'
   },
  logo: {
     height:'65px',
@@ -24,9 +25,9 @@ const useStyles = makeStyles((theme) => ({
   link: {
     textDecoration: "none",
     textShaddow: "3px 3px grey",
-    color: "grey",
+    color: "white",
     fontSize: "20px",
-    marginLeft: theme.spacing(10),
+    marginLeft: theme.spacing(12),
     "&:hover": {
       color: "black",
       border: "1px dotted white",

@@ -5,7 +5,6 @@ const About = () => {
         <div className="about-container">
         <h5>About Me</h5>
 
-        {/* <img src={Profile} alt="profile-photo" className="profile float-left"></img> */}
         <div>
 
             <div className="mt-3">
@@ -31,10 +30,7 @@ const About = () => {
                                             </p>
             </div>
 
-            <div className="card-body contactLinks">
-                <a href="https://www.linkedin.com/in/dalton-rothrock-a67935162" className="card-link">LinkedIn</a>
-                <a href="https://github.com/drock4440" className="card-link">GitHub</a>
-            </div>
+           
         </div>
         {/* end copy paste  */}
     </div>

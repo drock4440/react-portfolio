@@ -1,5 +1,5 @@
 import React from "react";
-import Portfolio from "../components/Portfolio";
+import Portfolio from "../components/PortfolioCard";
 import projects from "../assets/projects.json";
 
 
@@ -9,8 +9,8 @@ function PortfolioList() {
 
 
 
-      <div className="container portfolio-container">
-        <h1 className="title">Projects List</h1>
+      <div className=" portfolio-container">
+        <h1 className="title">Projects</h1>
         <div className="row">
           <Portfolio
             name={projects[0].name}
@@ -24,26 +24,19 @@ function PortfolioList() {
             project={projects[1].project}
             location={projects[1].location}
           />
-        </div>
-        <div className="row">
           <Portfolio
             name={projects[2].name}
             image={projects[2].image}
             project={projects[2].project}
             location={projects[2].location}
           />
-
           <Portfolio
             name={projects[3].name}
             image={projects[3].image}
             project={projects[3].project}
             location={projects[3].location}
           />
-        </div>
-
-        <div className="row">
-
-          <Portfolio
+           <Portfolio
             name={projects[4].name}
             image={projects[4].image}
             project={projects[4].project}
@@ -59,10 +52,7 @@ function PortfolioList() {
 
         </div>
       </div>
-
-
-
-    </div >
+      </div >
   );
 }
 
